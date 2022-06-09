@@ -7,17 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88FF59D92822D8FD00BB792E /* ReeceSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FF59D82822D8FD00BB792E /* ReeceSaverView.h */; };
-		88FF59DB2822D8FD00BB792E /* ReeceSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FF59DA2822D8FD00BB792E /* ReeceSaverView.m */; };
+		88599C4F284E6D0A00A9C814 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88599C4E284E6D0A00A9C814 /* WeatherView.swift */; };
+		88599C50284E731C00A9C814 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88599C4E284E6D0A00A9C814 /* WeatherView.swift */; };
+		88D53CDF284A6C7500E5EE3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D53CDE284A6C7500E5EE3F /* AppDelegate.swift */; };
+		88D53CE1284A6C7500E5EE3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D53CE0284A6C7500E5EE3F /* ViewController.swift */; };
+		88D53CE3284A6C7600E5EE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D53CE2284A6C7600E5EE3F /* Assets.xcassets */; };
+		88D53CE6284A6C7600E5EE3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D53CE4284A6C7600E5EE3F /* Main.storyboard */; };
+		88D53CF1284A6C7600E5EE3F /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D53CF0284A6C7600E5EE3F /* TestAppTests.swift */; };
+		88D53CFB284A6C7700E5EE3F /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D53CFA284A6C7700E5EE3F /* TestAppUITests.swift */; };
+		88D53CFD284A6C7700E5EE3F /* TestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D53CFC284A6C7700E5EE3F /* TestAppUITestsLaunchTests.swift */; };
+		88D53D08284A6D6C00E5EE3F /* ReeceSaver.saver in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 88FF59D52822D8FD00BB792E /* ReeceSaver.saver */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		88D53D0C284A6D9400E5EE3F /* SaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF59E12822D95700BB792E /* SaverView.swift */; };
+		88D53D0D284A6DA300E5EE3F /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF59E32822D9BF00BB792E /* ClockView.swift */; };
+		88D53D0E284A6DA800E5EE3F /* ConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF59E92822F01600BB792E /* ConfigSheet.swift */; };
+		88FF59E22822D95700BB792E /* SaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF59E12822D95700BB792E /* SaverView.swift */; };
+		88FF59E42822D9BF00BB792E /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF59E32822D9BF00BB792E /* ClockView.swift */; };
+		88FF59E62822EAEE00BB792E /* ConfigSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FF59E52822EAEE00BB792E /* ConfigSheet.xib */; };
+		88FF59EA2822F01600BB792E /* ConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF59E92822F01600BB792E /* ConfigSheet.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		88D53CED284A6C7600E5EE3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88FF59CC2822D8FD00BB792E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D53CDB284A6C7500E5EE3F;
+			remoteInfo = TestApp;
+		};
+		88D53CF7284A6C7700E5EE3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88FF59CC2822D8FD00BB792E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D53CDB284A6C7500E5EE3F;
+			remoteInfo = TestApp;
+		};
+		88D53D09284A6D6C00E5EE3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88FF59CC2822D8FD00BB792E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88FF59D42822D8FD00BB792E;
+			remoteInfo = ReeceSaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88D53D0B284A6D6D00E5EE3F /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88D53D08284A6D6C00E5EE3F /* ReeceSaver.saver in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		88599C4E284E6D0A00A9C814 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		88D53CDC284A6C7500E5EE3F /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D53CDE284A6C7500E5EE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88D53CE0284A6C7500E5EE3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88D53CE2284A6C7600E5EE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88D53CE5284A6C7600E5EE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88D53CE7284A6C7600E5EE3F /* TestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestApp.entitlements; sourceTree = "<group>"; };
+		88D53CEC284A6C7600E5EE3F /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D53CF0284A6C7600E5EE3F /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
+		88D53CF6284A6C7700E5EE3F /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D53CFA284A6C7700E5EE3F /* TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITests.swift; sourceTree = "<group>"; };
+		88D53CFC284A6C7700E5EE3F /* TestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		88FF59D52822D8FD00BB792E /* ReeceSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReeceSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		88FF59D82822D8FD00BB792E /* ReeceSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReeceSaverView.h; sourceTree = "<group>"; };
-		88FF59DA2822D8FD00BB792E /* ReeceSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReeceSaverView.m; sourceTree = "<group>"; };
+		88FF59E12822D95700BB792E /* SaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaverView.swift; sourceTree = "<group>"; };
+		88FF59E32822D9BF00BB792E /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		88FF59E52822EAEE00BB792E /* ConfigSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigSheet.xib; sourceTree = "<group>"; };
+		88FF59E92822F01600BB792E /* ConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		88D53CD9284A6C7500E5EE3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D53CE9284A6C7600E5EE3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D53CF3284A6C7700E5EE3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88FF59D22822D8FD00BB792E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -28,11 +116,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88D53CDD284A6C7500E5EE3F /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				88D53CDE284A6C7500E5EE3F /* AppDelegate.swift */,
+				88D53CE0284A6C7500E5EE3F /* ViewController.swift */,
+				88D53CE2284A6C7600E5EE3F /* Assets.xcassets */,
+				88D53CE4284A6C7600E5EE3F /* Main.storyboard */,
+				88D53CE7284A6C7600E5EE3F /* TestApp.entitlements */,
+			);
+			path = TestApp;
+			sourceTree = "<group>";
+		};
+		88D53CEF284A6C7600E5EE3F /* TestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				88D53CF0284A6C7600E5EE3F /* TestAppTests.swift */,
+			);
+			path = TestAppTests;
+			sourceTree = "<group>";
+		};
+		88D53CF9284A6C7700E5EE3F /* TestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88D53CFA284A6C7700E5EE3F /* TestAppUITests.swift */,
+				88D53CFC284A6C7700E5EE3F /* TestAppUITestsLaunchTests.swift */,
+			);
+			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+		88D53D07284A6D6C00E5EE3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88FF59CB2822D8FD00BB792E = {
 			isa = PBXGroup;
 			children = (
 				88FF59D72822D8FD00BB792E /* ReeceSaver */,
+				88D53CDD284A6C7500E5EE3F /* TestApp */,
+				88D53CEF284A6C7600E5EE3F /* TestAppTests */,
+				88D53CF9284A6C7700E5EE3F /* TestAppUITests */,
 				88FF59D62822D8FD00BB792E /* Products */,
+				88D53D07284A6D6C00E5EE3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -40,6 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				88FF59D52822D8FD00BB792E /* ReeceSaver.saver */,
+				88D53CDC284A6C7500E5EE3F /* TestApp.app */,
+				88D53CEC284A6C7600E5EE3F /* TestAppTests.xctest */,
+				88D53CF6284A6C7700E5EE3F /* TestAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,8 +178,11 @@
 		88FF59D72822D8FD00BB792E /* ReeceSaver */ = {
 			isa = PBXGroup;
 			children = (
-				88FF59D82822D8FD00BB792E /* ReeceSaverView.h */,
-				88FF59DA2822D8FD00BB792E /* ReeceSaverView.m */,
+				88FF59E12822D95700BB792E /* SaverView.swift */,
+				88FF59E92822F01600BB792E /* ConfigSheet.swift */,
+				88FF59E32822D9BF00BB792E /* ClockView.swift */,
+				88599C4E284E6D0A00A9C814 /* WeatherView.swift */,
+				88FF59E52822EAEE00BB792E /* ConfigSheet.xib */,
 			);
 			path = ReeceSaver;
 			sourceTree = "<group>";
@@ -60,13 +194,67 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88FF59D92822D8FD00BB792E /* ReeceSaverView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		88D53CDB284A6C7500E5EE3F /* TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D53D04284A6C7700E5EE3F /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildPhases = (
+				88D53CD8284A6C7500E5EE3F /* Sources */,
+				88D53CD9284A6C7500E5EE3F /* Frameworks */,
+				88D53CDA284A6C7500E5EE3F /* Resources */,
+				88D53D0B284A6D6D00E5EE3F /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D53D0A284A6D6C00E5EE3F /* PBXTargetDependency */,
+			);
+			name = TestApp;
+			productName = TestApp;
+			productReference = 88D53CDC284A6C7500E5EE3F /* TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88D53CEB284A6C7600E5EE3F /* TestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D53D05284A6C7700E5EE3F /* Build configuration list for PBXNativeTarget "TestAppTests" */;
+			buildPhases = (
+				88D53CE8284A6C7600E5EE3F /* Sources */,
+				88D53CE9284A6C7600E5EE3F /* Frameworks */,
+				88D53CEA284A6C7600E5EE3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D53CEE284A6C7600E5EE3F /* PBXTargetDependency */,
+			);
+			name = TestAppTests;
+			productName = TestAppTests;
+			productReference = 88D53CEC284A6C7600E5EE3F /* TestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88D53CF5284A6C7700E5EE3F /* TestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D53D06284A6C7700E5EE3F /* Build configuration list for PBXNativeTarget "TestAppUITests" */;
+			buildPhases = (
+				88D53CF2284A6C7700E5EE3F /* Sources */,
+				88D53CF3284A6C7700E5EE3F /* Frameworks */,
+				88D53CF4284A6C7700E5EE3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D53CF8284A6C7700E5EE3F /* PBXTargetDependency */,
+			);
+			name = TestAppUITests;
+			productName = TestAppUITests;
+			productReference = 88D53CF6284A6C7700E5EE3F /* TestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		88FF59D42822D8FD00BB792E /* ReeceSaver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88FF59DE2822D8FD00BB792E /* Build configuration list for PBXNativeTarget "ReeceSaver" */;
@@ -92,10 +280,23 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					88D53CDB284A6C7500E5EE3F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					88D53CEB284A6C7600E5EE3F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 88D53CDB284A6C7500E5EE3F;
+					};
+					88D53CF5284A6C7700E5EE3F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 88D53CDB284A6C7500E5EE3F;
+					};
 					88FF59D42822D8FD00BB792E = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -113,32 +314,263 @@
 			projectRoot = "";
 			targets = (
 				88FF59D42822D8FD00BB792E /* ReeceSaver */,
+				88D53CDB284A6C7500E5EE3F /* TestApp */,
+				88D53CEB284A6C7600E5EE3F /* TestAppTests */,
+				88D53CF5284A6C7700E5EE3F /* TestAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		88FF59D32822D8FD00BB792E /* Resources */ = {
+		88D53CDA284A6C7500E5EE3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D53CE3284A6C7600E5EE3F /* Assets.xcassets in Resources */,
+				88D53CE6284A6C7600E5EE3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D53CEA284A6C7600E5EE3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88D53CF4284A6C7700E5EE3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FF59D32822D8FD00BB792E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FF59E62822EAEE00BB792E /* ConfigSheet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		88D53CD8284A6C7500E5EE3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D53CE1284A6C7500E5EE3F /* ViewController.swift in Sources */,
+				88D53D0D284A6DA300E5EE3F /* ClockView.swift in Sources */,
+				88D53D0E284A6DA800E5EE3F /* ConfigSheet.swift in Sources */,
+				88599C50284E731C00A9C814 /* WeatherView.swift in Sources */,
+				88D53D0C284A6D9400E5EE3F /* SaverView.swift in Sources */,
+				88D53CDF284A6C7500E5EE3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D53CE8284A6C7600E5EE3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D53CF1284A6C7600E5EE3F /* TestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D53CF2284A6C7700E5EE3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D53CFD284A6C7700E5EE3F /* TestAppUITestsLaunchTests.swift in Sources */,
+				88D53CFB284A6C7700E5EE3F /* TestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88FF59D12822D8FD00BB792E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88FF59DB2822D8FD00BB792E /* ReeceSaverView.m in Sources */,
+				88FF59EA2822F01600BB792E /* ConfigSheet.swift in Sources */,
+				88FF59E22822D95700BB792E /* SaverView.swift in Sources */,
+				88FF59E42822D9BF00BB792E /* ClockView.swift in Sources */,
+				88599C4F284E6D0A00A9C814 /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		88D53CEE284A6C7600E5EE3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88D53CDB284A6C7500E5EE3F /* TestApp */;
+			targetProxy = 88D53CED284A6C7600E5EE3F /* PBXContainerItemProxy */;
+		};
+		88D53CF8284A6C7700E5EE3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88D53CDB284A6C7500E5EE3F /* TestApp */;
+			targetProxy = 88D53CF7284A6C7700E5EE3F /* PBXContainerItemProxy */;
+		};
+		88D53D0A284A6D6C00E5EE3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88FF59D42822D8FD00BB792E /* ReeceSaver */;
+			targetProxy = 88D53D09284A6D6C00E5EE3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88D53CE4284A6C7600E5EE3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D53CE5284A6C7600E5EE3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		88D53CFE284A6C7700E5EE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88D53CFF284A6C7700E5EE3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		88D53D00284A6C7700E5EE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48SVSV8UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.TestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/Contents/MacOS/TestApp";
+			};
+			name = Debug;
+		};
+		88D53D01284A6C7700E5EE3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48SVSV8UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.TestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/Contents/MacOS/TestApp";
+			};
+			name = Release;
+		};
+		88D53D02284A6C7700E5EE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48SVSV8UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.TestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TestApp;
+			};
+			name = Debug;
+		};
+		88D53D03284A6C7700E5EE3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48SVSV8UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.TestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TestApp;
+			};
+			name = Release;
+		};
 		88FF59DC2822D8FD00BB792E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -245,24 +677,35 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
 		88FF59DF2822D8FD00BB792E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 48SVSV8UA8;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = ReeceSaverView;
+				INFOPLIST_KEY_NSPrincipalClass = ReeceSaver.SaverView;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.ReeceSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -270,18 +713,27 @@
 		88FF59E02822D8FD00BB792E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 48SVSV8UA8;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = ReeceSaverView;
+				INFOPLIST_KEY_NSPrincipalClass = ReeceSaver.SaverView;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dantin.ReeceSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -289,6 +741,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		88D53D04284A6C7700E5EE3F /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D53CFE284A6C7700E5EE3F /* Debug */,
+				88D53CFF284A6C7700E5EE3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D53D05284A6C7700E5EE3F /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D53D00284A6C7700E5EE3F /* Debug */,
+				88D53D01284A6C7700E5EE3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D53D06284A6C7700E5EE3F /* Build configuration list for PBXNativeTarget "TestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D53D02284A6C7700E5EE3F /* Debug */,
+				88D53D03284A6C7700E5EE3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		88FF59CF2822D8FD00BB792E /* Build configuration list for PBXProject "ReeceSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
