@@ -104,6 +104,8 @@ struct WeatherView: View {
             
             if lat != nil && long != nil {
                 loadPoint(lat: lat!, long: long!)
+            } else {
+                loadPoint(lat: "30.0", long: "-90.0")
             }
         }
         
@@ -138,7 +140,7 @@ struct WeatherView: View {
                 if let dictionary = json as? [String: Any] {
                     if let propertiesDictionary = dictionary["properties"] as? [String: Any] {
                         let forcastURL = propertiesDictionary["forecastHourly"]
-//                        print(forcastURL)
+                        print(forcastURL)
                         getForcast(url: forcastURL as! String)
                     }
                 }
@@ -228,9 +230,15 @@ struct ForcastTime: Codable, Hashable {
     
     
     func getSFIcon() -> String? {
+        print(self.icon)
         
         let index = self.icon.lastIndex(of: "/")!
-        let index2 = self.icon.lastIndex(of: "?")!
+        var index2 = self.icon.lastIndex(of: "?")!
+        let commaIndex = self.icon.lastIndex(of: ",")
+        
+        if commaIndex != nil {
+            index2 = commaIndex!
+        }
         
         let icon = self.icon[index..<index2]
         

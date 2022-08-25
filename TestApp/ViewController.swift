@@ -19,7 +19,7 @@ class ViewController: NSViewController {
        override func viewDidLoad() {
            super.viewDidLoad()
            let containerView: NSView! = view
-           let demoView = NSHostingView(rootView: ClockView())
+           let demoView = NSHostingView(rootView: WeatherView())
            containerView.addSubview(demoView)
            demoView.translatesAutoresizingMaskIntoConstraints = false
            demoView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor).isActive = true

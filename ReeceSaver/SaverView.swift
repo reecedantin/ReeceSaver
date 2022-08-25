@@ -19,7 +19,7 @@ class SaverView: ScreenSaverView {
         
         let screens = NSScreen.screens
         let primaryScreen = screens[0]
-        let secondScreen = screens[1]
+        
         
         if (frame.origin.x == primaryScreen.frame.origin.x) {
             let webView = NSHostingView(rootView: ClockView())
@@ -31,14 +31,17 @@ class SaverView: ScreenSaverView {
             webView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         }
         
-        if (frame.origin.x == secondScreen.frame.origin.x) {
-            let webView = NSHostingView(rootView: WeatherView())
-            self.addSubview(webView)
-            webView.translatesAutoresizingMaskIntoConstraints = false
-            webView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-            webView.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
-            webView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-            webView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        if screens.count == 2 {
+            let secondScreen = screens[1]
+            if (frame.origin.x == secondScreen.frame.origin.x) {
+                let webView = NSHostingView(rootView: WeatherView())
+                self.addSubview(webView)
+                webView.translatesAutoresizingMaskIntoConstraints = false
+                webView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
+                webView.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
+                webView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+                webView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+            }
         }
         
     }
